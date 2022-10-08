@@ -49,16 +49,16 @@ p, a, li, button, ul {
 a:hover {
   text-decoration: none;
 }
-
-img {
-  width: 85%;
-  height: auto;
-}
 .logo {
   height: 60px;
   width: 90px;
   margin-top: 0;
 }
+img {
+  width: 100%;
+  height: auto;
+}
+
 button {
   border: 0;
   background-color: transparent;
@@ -91,7 +91,7 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 16px 0px;
+  padding: 20px 0px;
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
