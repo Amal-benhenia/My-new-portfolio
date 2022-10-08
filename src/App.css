@@ -49,11 +49,7 @@ p, a, li, button, ul {
 a:hover {
   text-decoration: none;
 }
-.logo {
-  height: 60px;
-  width: 90px;
-  margin-top: 0;
-}
+
 img {
   width: 100%;
   height: auto;
