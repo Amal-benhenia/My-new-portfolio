@@ -51,10 +51,14 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 85%;
   height: auto;
 }
-
+.logo {
+  height: 60px;
+  width: 90px;
+  margin-top: 0;
+}
 button {
   border: 0;
   background-color: transparent;
@@ -87,7 +91,7 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 16px 0px;
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
