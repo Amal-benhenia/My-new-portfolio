@@ -40,7 +40,7 @@ export const Test = () => {
                                 <img src={projImg3} className='source-img' alt="Image" />
                                <div className='img-overlay'>
         
-                                <a   className='img-title' href='https://fondationtunisie.org/en/'> FONDATION TUNISIE</a>
+                                <a className='img-title' href='https://fondationtunisie.org/en/' target='_blank'> FONDATION TUNISIE</a>
                           
                                </div>
                                <div className='img-description'>
@@ -50,7 +50,7 @@ export const Test = () => {
                             <div className='project-img '>
                                 <img src={projImg2} className='source-img' alt="Image" />
                                 <div className='img-overlay'>
-                                  <a href='https://preview.atelier.eyespot.agency/' className='img-title'>
+                                  <a href='https://preview.atelier.eyespot.agency/' className='img-title' target='_blank'>
                                       ATELIER
                                   </a>
                                 
@@ -62,7 +62,7 @@ export const Test = () => {
                             <div className='project-img '>
                                 <img src={projImg1} className='source-img' alt="Image" />
                                  <div className='img-overlay'>
-                                 <a href='https://preview.onyva.eyespot.agency/' className='img-title'>
+                                 <a href='https://preview.onyva.eyespot.agency/' className='img-title' target='_blank'>
                                       ONYVA
                                   </a>
                         

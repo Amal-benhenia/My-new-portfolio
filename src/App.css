@@ -515,6 +515,7 @@ color: white;
 }
 .container-projects {
   width: 90%;
+  margin-top: 45px;
   margin-left: auto;
   margin-right: auto;
 }
