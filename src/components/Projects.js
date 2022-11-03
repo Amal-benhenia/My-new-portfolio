@@ -8,26 +8,27 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Projects = () => {
 
   const projects1 = [
     {
       title: "FONDATION TUNISIE",
-      description: "I contributed to the front-end development of this site using ReactJS and GATSBY.",
+      description: "I contributed to the front-end development of this website using ReactJS and GATSBY.",
       imgUrl: projImg1,
       link: "https://fondationtunisie.org/"
     },
     {
       title: "ATELIER",
-      description: "I contributed to the front-end development of this site using ReactJS and GATSBY.",
+      description: "I contributed to the front-end development of this website using ReactJS and GATSBY.",
       imgUrl: projImg2,
       link: "https://preview.atelier.eyespot.agency/"
     },
     {
-      title: "MY STORE.",
-      description: "I have developed an e-commerce website using MERN stack and payment integration with StripeJS",
+      title: "ONYVA",
+      description: "I contributed to the front-end development of this website using ReactJS and GATSBY.",
       imgUrl: projImg3,
-      link: "https://github.com/Amal-benhenia/MY-STORE."
+      link: "https://preview.onyva.eyespot.agency/"
     },
    
   

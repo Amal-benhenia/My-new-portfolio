@@ -63,7 +63,7 @@ export const Skills = () => {
                                 <h5>MongoDB</h5>
                             </div>
                         </Carousel>
-                        <a href={CV} download className='btn' >Download my CV</a>
+                        
                     </div>
                 </div>
             </div>
