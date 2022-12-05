@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,8 +59,9 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>Hi! I'm Amal <span className="txt-rotate" dataPeriod="1000" data-rotate='[ " Full Stack Web Developer", "Front End Web Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello World ! My name is Amal, I am a Full Stack Web developer with a background in Physics and Astrophysics. From sketching and refining new ideas to writing lines of codes on a web page I love combining the two worlds of logic and creativity to make eye-catching, accessible and user-friendly websites.</p>
-                  
+                
                   <button href="" onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                 
               </div>}
             </TrackVisibility>
           </Col>
