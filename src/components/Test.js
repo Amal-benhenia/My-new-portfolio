@@ -4,6 +4,10 @@ import colorSharp from "../assets/img/color-sharp.png";
 import projImg1 from "../assets/img/project1.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project3.png";
+import projImg4 from "../assets/img/project4.png";
+import projImg5 from "../assets/img/project5.png";
+import projImg6 from "../assets/img/project6.png";
+
 
 
 export const Test = () => {
@@ -64,6 +68,42 @@ export const Test = () => {
                                  <div className='img-overlay'>
                                  <a href='https://preview.onyva.eyespot.agency/' className='img-title' target='_blank'>
                                       ONYVA
+                                  </a>
+                        
+                               </div>
+                               <div className='img-description'>
+                                   Gatsby, React
+                                   </div>
+                            </div>
+                            <div className='project-img '>
+                                <img src={projImg4} className='source-img' alt="Image" />
+                                 <div className='img-overlay'>
+                                 <a href='https://preview.exactt-global-partners.eyespot.agency/' className='img-title' target='_blank'>
+                                      SWIFTLINK
+                                  </a>
+                        
+                               </div>
+                               <div className='img-description'>
+                                   Gatsby, React
+                                   </div>
+                            </div>
+                            <div className='project-img '>
+                                <img src={projImg5} className='source-img' alt="Image" />
+                                 <div className='img-overlay'>
+                                 <a href='https://preview.luxor.eyespot.agency/' className='img-title' target='_blank'>
+                                      LUXOR
+                                  </a>
+                        
+                               </div>
+                               <div className='img-description'>
+                                   Gatsby, React
+                                   </div>
+                            </div>
+                            <div className='project-img '>
+                                <img src={projImg6} className='source-img' alt="Image" />
+                                 <div className='img-overlay'>
+                                 <a href='https://dev.serviced.horizon-europe.eyespot.agency/' className='img-title' target='_blank'>
+                                      HORIZON
                                   </a>
                         
                                </div>
