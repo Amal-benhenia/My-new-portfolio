@@ -39,7 +39,7 @@ export const Test = () => {
                         <h2>Projects</h2>
                         <br></br>
                         <p>Here are a few past projects I've worked on. For more projects, I invite you to visit my Github account.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel responsive={responsive} infinite={true} >
                             <div className='project-img '>
                                 <img src={projImg3} className='source-img' alt="Image" />
                                <div className='img-overlay'>

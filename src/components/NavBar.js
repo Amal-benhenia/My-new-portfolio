@@ -36,8 +36,8 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand >
-            <img src={logo} alt="Logo" style={{"height": "80px"}}/>
+          <Navbar.Brand href="#home" >
+            <img src={logo} alt="Logo" style={{"height": "70px"}}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

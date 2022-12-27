@@ -245,7 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -254,10 +254,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 19px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+}
+.banner a {
+  text-decoration: none;
 }
 .banner button {
   color: #fff;

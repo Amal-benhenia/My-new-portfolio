@@ -12,9 +12,10 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Full Stack Web Developer", "Web Designer"];
+  const toRotate = ["Full Stack Web Developer", "Front End Web developer"];
   const period = 2000;
-
+  
+  
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
@@ -59,9 +60,9 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>Hi! I'm Amal <span className="txt-rotate" dataPeriod="1000" data-rotate='[ " Full Stack Web Developer", "Front End Web Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello World ! My name is Amal, I am a Full Stack Web developer with a background in Physics and Astrophysics. From sketching and refining new ideas to writing lines of codes on a web page I love combining the two worlds of logic and creativity to make eye-catching, accessible and user-friendly websites.</p>
-                
+                <a href="https://www.linkedin.com/in/amal-ben-henia/" target="_blank">
                   <button href="" onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-                 
+                  </a> 
               </div>}
             </TrackVisibility>
           </Col>
