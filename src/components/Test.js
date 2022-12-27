@@ -38,7 +38,12 @@ export const Test = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Projects</h2>
                         <br></br>
-                        <p>Here are a few past projects I've worked on. For more projects, I invite you to visit my Github account.</p>
+                        <p>Here are a few past projects I've worked on. Want to see more?</p>
+                        <div className='github-link-container'> 
+
+                        <a id ="github-id" href="https://github.com/Amal-benhenia">Visit my github account </a>
+                        </div>
+                       
                         <Carousel responsive={responsive} infinite={true} >
                             <div className='project-img '>
                                 <img src={projImg3} className='source-img' alt="Image" />

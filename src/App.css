@@ -351,6 +351,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+#github-id {
+  display: inline-block;
+  text-decoration: none;
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 10px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+#github-id:hover {
+ color: #d4489c; 
+}
 .project {
   padding: 80px 0;
   position: relative;
@@ -663,6 +677,11 @@ color: white;
   border: 0;
   padding: 0 15px;
 }
+@media screen and (max-device-width: 1000px) {
+  .newsletter-bx {
+    visibility: hidden;
+  }
+}
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 20px 65px;
@@ -680,4 +699,7 @@ color: white;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.logo-footer {
+  margin-top: 15px;
 }
