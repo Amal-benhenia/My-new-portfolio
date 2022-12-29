@@ -549,6 +549,7 @@ color: white;
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
+ 
 }
 .contact img {
   width: 92%;
@@ -558,6 +559,7 @@ color: white;
 	font-weight: 700;
   margin-bottom: 30px;
 }
+
 .contact form input, .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
