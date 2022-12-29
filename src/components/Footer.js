@@ -10,13 +10,13 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" className="logo-footer" />
+            <img src={logo} alt="footer" className="logo-footer" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-            <a href="https://github.com/Amal-benhenia" target='blank'> <img src={navIcon1} alt="" /></a>
-                <a href="https://www.linkedin.com/in/amal-ben-henia/" target='blank'> <img src={navIcon2} alt="" /></a>
-                <a href="https://www.facebook.com/amal.benhenia.39/" target='blank'><img src={navIcon3} alt="" /></a>
+            <a href="https://github.com/Amal-benhenia" target='blank'> <img src={navIcon1} alt="github amal" /></a>
+                <a href="https://www.linkedin.com/in/amal-ben-henia/" target='blank'> <img src={navIcon2} alt="linkedin amal" /></a>
+                <a href="https://www.facebook.com/amal.benhenia.39/" target='blank'><img src={navIcon3} alt=" facebook amal" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>

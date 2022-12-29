@@ -46,10 +46,10 @@ export const Test = () => {
                        
                         <Carousel responsive={responsive} infinite={true} >
                             <div className='project-img '>
-                                <img src={projImg3} className='source-img' alt="Image" />
+                                <img src={projImg3} className='source-img' alt="project1" />
                                <div className='img-overlay'>
         
-                                <a className='img-title' href='https://fondationtunisie.org/en/' target='_blank'> FONDATION TUNISIE</a>
+                                <a className='img-title' href='https://fondationtunisie.org/en/' target='_blank'rel="noreferrer"> FONDATION TUNISIE</a>
                           
                                </div>
                                <div className='img-description'>
@@ -57,9 +57,9 @@ export const Test = () => {
                                    </div>
                             </div>
                             <div className='project-img '>
-                                <img src={projImg2} className='source-img' alt="Image" />
+                                <img src={projImg2} className='source-img' alt="project2" />
                                 <div className='img-overlay'>
-                                  <a href='https://preview.atelier.eyespot.agency/' className='img-title' target='_blank'>
+                                  <a href='https://preview.atelier.eyespot.agency/' className='img-title' target='_blank' rel="noreferrer">
                                       ATELIER
                                   </a>
                                 
@@ -69,9 +69,9 @@ export const Test = () => {
                                   </div>
                             </div>
                             <div className='project-img '>
-                                <img src={projImg1} className='source-img' alt="Image" />
+                                <img src={projImg1} className='source-img' alt="project3" />
                                  <div className='img-overlay'>
-                                 <a href='https://preview.onyva.eyespot.agency/' className='img-title' target='_blank'>
+                                 <a href='https://preview.onyva.eyespot.agency/' className='img-title' target='_blank' rel="noreferrer">
                                       ONYVA
                                   </a>
                         
@@ -81,9 +81,9 @@ export const Test = () => {
                                    </div>
                             </div>
                             <div className='project-img '>
-                                <img src={projImg4} className='source-img' alt="Image" />
+                                <img src={projImg4} className='source-img' alt="project4" />
                                  <div className='img-overlay'>
-                                 <a href='https://preview.exactt-global-partners.eyespot.agency/' className='img-title' target='_blank'>
+                                 <a href='https://preview.exactt-global-partners.eyespot.agency/' className='img-title' target='_blank' rel="noreferrer">
                                       SWIFTLINK
                                   </a>
                         
@@ -93,9 +93,9 @@ export const Test = () => {
                                    </div>
                             </div>
                             <div className='project-img '>
-                                <img src={projImg5} className='source-img' alt="Image" />
+                                <img src={projImg5} className='source-img' alt="project5" />
                                  <div className='img-overlay'>
-                                 <a href='https://preview.luxor.eyespot.agency/' className='img-title' target='_blank'>
+                                 <a href='https://preview.luxor.eyespot.agency/' className='img-title' target='_blank' rel="noreferrer">
                                       LUXOR
                                   </a>
                         
@@ -105,9 +105,9 @@ export const Test = () => {
                                    </div>
                             </div>
                             <div className='project-img '>
-                                <img src={projImg6} className='source-img' alt="Image" />
+                                <img src={projImg6} className='source-img' alt="project6" />
                                  <div className='img-overlay'>
-                                 <a href='https://dev.serviced.horizon-europe.eyespot.agency/' className='img-title' target='_blank'>
+                                 <a href='https://dev.serviced.horizon-europe.eyespot.agency/' className='img-title' target='_blank'rel="noreferrer">
                                       HORIZON
                                   </a>
                         
@@ -125,7 +125,7 @@ export const Test = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="background" />
     </section>
   )
 }

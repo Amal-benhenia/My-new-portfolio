@@ -37,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home" >
-            <img src={logo} alt="Logo" style={{"height": "70px"}}/>
+            <img src={logo} alt="brand" style={{"height": "70px"}}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -50,9 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/Amal-benhenia" target='blank' rel="noreferrer" > <img src={navIcon1} alt="" /></a>
-                <a href="https://www.linkedin.com/in/amal-ben-henia/" target='blank' rel="noreferrer" > <img src={navIcon2} alt="" /></a>
-                <a href="https://www.facebook.com/amal.benhenia.39/" target='blank' rel="noreferrer" ><img src={navIcon3} alt="" /></a>
+                <a href="https://github.com/Amal-benhenia" target='blank' rel="noreferrer" > <img src={navIcon1} alt="github amal" /></a>
+                <a href="https://www.linkedin.com/in/amal-ben-henia/" target='blank' rel="noreferrer" > <img src={navIcon2} alt="linkedin amal" /></a>
+                <a href="https://www.facebook.com/amal.benhenia.39/" target='blank' rel="noreferrer" ><img src={navIcon3} alt="facebook amal" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

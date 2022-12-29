@@ -36,27 +36,27 @@ export const Skills = () => {
                         <br></br>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="percentage" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="percentage" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="percentage" />
                                 <h5>Javascript (ES6+)</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="percentage" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="percentage" />
                                 <h5>Node JS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="percentage" />
                                 <h5>MongoDB</h5>
                             </div>
                         </Carousel>
